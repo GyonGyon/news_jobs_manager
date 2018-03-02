@@ -1,0 +1,15 @@
+<header class="navbar navbar-static-top navbar-inverse">
+  <div class="container">
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+
+        <% if true %>
+          <li><%= link_to "添加新闻", '/article' %></li>
+          <li><%= link_to "添加职位", '/job' %></li>
+        <% else %>
+          <li><%= link_to "Log in", '#' %></li>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
