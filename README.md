@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+## 期望的功能
 
-* System dependencies
+新闻与职位的发布平台
 
-* Configuration
+用户登录平台(网站), 输入对应文本存入数据库.
 
-* Database creation
+从数据库中提取数据, 提供 api 供其他网站使用
 
-* Database initialization
+传输 json 与图片数据
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
